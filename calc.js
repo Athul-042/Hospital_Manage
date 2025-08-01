@@ -20,6 +20,5 @@ let totalPatients = 0;
         totalPatients++;
         document.getElementById("total").textContent = "Total Patients: " + totalPatients;
 
-        // Reset form
         document.getElementById("patientForm").reset();
     });
